@@ -1,0 +1,52 @@
+        coloring-book-resources-android r0.1
+
+This is the submodule repository containing resources used by
+"Coloring Book for Android."  The master repository can be found at:
+
+http://github.com/byronsanchez/coloring-book-android
+
+INSTRUCTIONS
+
+  To use this as the resource directory for "Coloring Book for Android,"
+  you must add this to the res/ directory of the "Coloring Book for
+  Android" root directory.
+
+  To add this repository to the coloring-book-android repository as
+  a submodule:
+
+    cd coloring-book-android
+    git submodule add https://github.com/byronsanchez/coloring-book-resources-android.git res
+    git commit -m 'first commit with submodule coloring-book-resources-android'
+
+STRUCTURE
+
+  This is how the res/ tree is structured.
+
+    drawable/       - contains custom definitions for screen viewable
+                      elements.
+
+    drawable-*/     - contains images for various screen sizes and
+                      orientations.
+
+    layout*/        - contains activity xml files for various screen
+                      sizes. These xml files define the structure of
+                      the design for each activity.
+
+    raw/            - contains resources that are not screen-size or
+                      orientation specific.
+
+    values*/        - contains value definitions for different settings,
+                      strings, etc.
+
+LICENSE
+ 
+ The copyright and license terms for everything in this repository is
+ explained in detail in the following repository's COPYRIGHT file:
+
+   http://github.com/byronsanchez/coloring-book-android
+
+ Direct link:
+  
+   https://github.com/byronsanchez/coloring-book-android/blob/master/COPYRIGHT
+
+ Read the aforementioned COPYRIGHT file carefully.
