@@ -1,15 +1,11 @@
-        coloring-book-resources-android r0.1
+        coloring-book-resources-android r0.1 <http://hackbytes.com>
 
 This is the submodule repository containing resources used by
 "Coloring Book for Android."  The master repository can be found at:
 
-http://github.com/byronsanchez/coloring-book-android
+  http://github.com/byronsanchez/coloring-book-android
 
 INSTRUCTIONS
-
-  To use this as the resource directory for "Coloring Book for Android,"
-  you must add this to the res/ directory of the "Coloring Book for
-  Android" root directory.
 
   To add this repository to the coloring-book-android repository as
   a submodule:
@@ -20,7 +16,7 @@ INSTRUCTIONS
 
 STRUCTURE
 
-  This is how the res/ tree is structured.
+  The repository tree structure.
 
     drawable/       - contains custom definitions for screen viewable
                       elements.
